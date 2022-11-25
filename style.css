@@ -199,7 +199,7 @@ section.card {
   grid-template-columns: 1fr 1fr;
   background-color: var(--white);
 }
-section.card:nth-child(odd) picture {
+section.card:nth-child(even) picture {
   order: 1;
 }
 
@@ -207,7 +207,7 @@ section.card:nth-child(odd) picture {
   section.card {
     grid-template-columns: 1fr;
   }
-  section.card:nth-child(odd) picture {
+  section.card:nth-child(even) picture {
     order: 0;
   }
 }
