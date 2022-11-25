@@ -4,3 +4,7 @@ const mobMenu = document.querySelector('.mobile-menu')
 menuBtn.addEventListener('click', () => {
   mobMenu.classList.toggle('open')
 })
+
+menuBtn.addEventListener('touchstart', () => {
+  mobMenu.classList.toggle('open')
+})
