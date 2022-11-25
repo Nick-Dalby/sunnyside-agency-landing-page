@@ -5,6 +5,3 @@ menuBtn.addEventListener('click', () => {
   mobMenu.classList.toggle('open')
 })
 
-menuBtn.addEventListener('touchstart', () => {
-  mobMenu.classList.toggle('open')
-})
